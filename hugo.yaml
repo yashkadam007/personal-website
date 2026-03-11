@@ -1,0 +1,16 @@
+baseURL: https://example.org/
+languageCode: en-us
+title: yashk.net
+theme: ["PaperMod"]
+
+
+menu:
+  main:
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 10
+    - identifier: resume
+      name: Resume
+      url: /resume/
+      weight: 20

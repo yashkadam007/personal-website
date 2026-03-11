@@ -1,0 +1,257 @@
+/* ── Resume Page Styles ── */
+
+.resume-page .post-content {
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+/* ── Header / Name ── */
+.resume-page .post-content h1 {
+  font-size: 2.2rem;
+  margin-bottom: 0.1rem;
+  letter-spacing: -0.5px;
+}
+
+.resume-page .post-content h1 + p strong {
+  font-size: 1.1rem;
+  color: var(--secondary);
+  font-weight: 500;
+}
+
+/* ── Contact row ── */
+.resume-page .post-content h1 + p + p {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem 1.2rem;
+  align-items: center;
+  font-size: 0.92rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Icons for contact links */
+.resume-page .post-content h1 + p + p a[href*="yashk.net"]::before {
+  content: "";
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  margin-right: 4px;
+  vertical-align: -1px;
+  background: currentColor;
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'/%3E%3Cline x1='2' y1='12' x2='22' y2='12'/%3E%3Cpath d='M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z'/%3E%3C/svg%3E");
+  mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'/%3E%3Cline x1='2' y1='12' x2='22' y2='12'/%3E%3Cpath d='M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z'/%3E%3C/svg%3E");
+}
+
+.resume-page .post-content h1 + p + p a[href*="github"]::before {
+  content: "";
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  margin-right: 4px;
+  vertical-align: -1px;
+  background: currentColor;
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='currentColor'%3E%3Cpath d='M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z'/%3E%3C/svg%3E");
+  mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='currentColor'%3E%3Cpath d='M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z'/%3E%3C/svg%3E");
+}
+
+.resume-page .post-content h1 + p + p a[href*="linkedin"]::before {
+  content: "";
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  margin-right: 4px;
+  vertical-align: -1px;
+  background: currentColor;
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='currentColor'%3E%3Cpath d='M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z'/%3E%3C/svg%3E");
+  mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='currentColor'%3E%3Cpath d='M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z'/%3E%3C/svg%3E");
+}
+
+/* Email icon (before the mailto or plain email text) */
+.resume-page .post-content h1 + p + p {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23888' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z'/%3E%3Cpolyline points='22,6 12,13 2,6'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-size: 14px 14px;
+  background-position: 0 center;
+  padding-left: 20px;
+}
+
+/* ── Section dividers ── */
+.resume-page .post-content hr {
+  border: none;
+  height: 1px;
+  background: var(--border);
+  margin: 2rem 0;
+}
+
+/* ── Section headings ── */
+.resume-page .post-content h2 {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: var(--primary);
+  border-bottom: 2px solid var(--primary);
+  padding-bottom: 0.4rem;
+  margin-top: 2rem;
+  margin-bottom: 1.2rem;
+}
+
+/* ── Timeline for Experience ── */
+.resume-page .post-content h2#experience ~ h3,
+.resume-page .post-content h2#experience ~ p,
+.resume-page .post-content h2#experience ~ ul {
+  margin-left: 1.5rem;
+}
+
+.resume-page .post-content h2#experience ~ h3 {
+  position: relative;
+  padding-left: 1.5rem;
+  margin-bottom: 0.2rem;
+  font-size: 1.05rem;
+}
+
+/* Timeline vertical line */
+.resume-page .post-content h2#experience ~ h3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: -2rem;
+  width: 2px;
+  background: var(--border);
+}
+
+/* Timeline dot */
+.resume-page .post-content h2#experience ~ h3::after {
+  content: "";
+  position: absolute;
+  left: -4px;
+  top: 8px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--primary);
+  border: 2px solid var(--theme);
+}
+
+/* Extend the line through the list items */
+.resume-page .post-content h2#experience ~ ul {
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.resume-page .post-content h2#experience ~ ul::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: -1rem;
+  bottom: 0;
+  width: 2px;
+  background: var(--border);
+}
+
+/* Date/location line */
+.resume-page .post-content h2#experience ~ h3 + p {
+  padding-left: 1.5rem;
+  font-size: 0.88rem;
+  color: var(--secondary);
+  margin-top: 0;
+  margin-bottom: 0.6rem;
+}
+
+/* Experience bullet points */
+.resume-page .post-content h2#experience ~ ul li {
+  margin-bottom: 0.4rem;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+/* ── Cards for Experience entries ── */
+.resume-page .post-content h2#experience ~ h3,
+.resume-page .post-content h2#experience ~ h3 + p,
+.resume-page .post-content h2#experience ~ ul {
+  background: var(--code-bg);
+  border-radius: 0;
+}
+
+.resume-page .post-content h2#experience ~ h3 {
+  background: var(--code-bg);
+  border-radius: 8px 8px 0 0;
+  padding: 1rem 1.2rem 0.3rem 2.5rem;
+  margin-bottom: 0;
+}
+
+.resume-page .post-content h2#experience ~ h3 + p {
+  background: var(--code-bg);
+  padding: 0 1.2rem 0.5rem 2.5rem;
+  margin-top: 0;
+}
+
+.resume-page .post-content h2#experience ~ ul {
+  background: var(--code-bg);
+  border-radius: 0 0 8px 8px;
+  padding: 0.3rem 1.2rem 1rem 3.5rem;
+  margin-bottom: 1.2rem;
+}
+
+/* Timeline adjustments for cards */
+.resume-page .post-content h2#experience ~ h3::before {
+  left: 1.5rem;
+  bottom: -100%;
+}
+
+.resume-page .post-content h2#experience ~ h3::after {
+  left: calc(1.5rem - 4px);
+}
+
+.resume-page .post-content h2#experience ~ ul::before {
+  left: 1.5rem;
+}
+
+/* ── Skills: two-column layout ── */
+.resume-page .post-content h2#skills ~ p {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem 2rem;
+}
+
+/* ── Projects section ── */
+.resume-page .post-content h2#projects ~ h3 {
+  font-size: 1.05rem;
+  margin-bottom: 0.3rem;
+}
+
+.resume-page .post-content h2#projects ~ ul li {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 0.4rem;
+}
+
+/* ── Education ── */
+.resume-page .post-content h2#education ~ p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+/* ── Responsive ── */
+@media (max-width: 600px) {
+  .resume-page .post-content h2#skills ~ p {
+    grid-template-columns: 1fr;
+  }
+
+  .resume-page .post-content h2#experience ~ h3,
+  .resume-page .post-content h2#experience ~ h3 + p,
+  .resume-page .post-content h2#experience ~ ul {
+    margin-left: 0.5rem;
+  }
+}
