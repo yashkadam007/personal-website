@@ -4,7 +4,7 @@ date: 2026-03-12
 draft: false
 ---
 
-I've had a personal website for a while, a terminal-style UI I built for fun. It was a cool experiment, but not something I'd actually use to write or share anything meaningful.
+I've had a personal website for a while, a [terminal-style UI](https://terminal.yashk.net/) I built for fun. It was a cool experiment, but not something I'd actually use to write or share anything meaningful.
 
 I recently stepped away from my last role to take a break, and it felt like the right time to finally rebuild it into something I'd actually keep coming back to. A simple space to write, document what I'm learning, and have a corner of the internet that feels like mine.
 
