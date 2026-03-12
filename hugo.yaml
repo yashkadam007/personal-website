@@ -14,3 +14,7 @@ menu:
       name: Resume
       url: /resume/
       weight: 20
+    - identifier: now
+      name: Now
+      url: /now/
+      weight: 30
