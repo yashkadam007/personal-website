@@ -4,6 +4,20 @@ title: yashk.net
 theme: ["PaperMod"]
 
 
+params:
+  mainSections:
+    - posts
+  homeInfoParams:
+    Title: "Hey, I'm Yash"
+    Content: "a software engineer, dabbler in photography"
+  socialIcons:
+    - name: github
+      url: "https://github.com/yashkadam007"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/yashkadam007"
+    - name: email
+      url: "mailto:hello@yashk.net"
+
 menu:
   main:
     - identifier: about
