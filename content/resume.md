@@ -14,7 +14,7 @@ disableShare: true
 
 **Software Engineer**
 
-<yashkadam199928@gmail.com> · [yashk.net](https://yashk.net) · [GitHub](https://github.com/yashkadam007) · [LinkedIn](https://linkedin.com/in/yashkadam007)
+[hello@yashk.net](mailto:hello@yashk.net) · [yashk.net](https://yashk.net) · [GitHub](https://github.com/yashkadam007) · [LinkedIn](https://linkedin.com/in/yashkadam007)
 
 ---
 
