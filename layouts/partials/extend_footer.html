@@ -2,7 +2,7 @@
 <script>
 (function(){
   if(!navigator.sendBeacon)return;
-  navigator.sendBeacon("/cdn-cgi/beacon",JSON.stringify({
+  navigator.sendBeacon("/api/ping",JSON.stringify({
     p:location.pathname,
     r:document.referrer,
     sw:screen.width,
