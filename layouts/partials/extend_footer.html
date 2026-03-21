@@ -1,0 +1,15 @@
+{{- if hugo.IsProduction | or (eq site.Params.env "production") }}
+<script>
+(function(){
+  if(!navigator.sendBeacon)return;
+  navigator.sendBeacon("/cdn-cgi/beacon",JSON.stringify({
+    p:location.pathname,
+    r:document.referrer,
+    sw:screen.width,
+    sh:screen.height,
+    ua:navigator.userAgent,
+    t:Date.now()
+  }));
+})();
+</script>
+{{- end }}

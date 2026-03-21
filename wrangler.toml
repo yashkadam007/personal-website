@@ -1,0 +1,9 @@
+name = "yashk-net"
+compatibility_date = "2024-01-01"
+
+[[kv_namespaces]]
+binding = "ANALYTICS_BUFFER"
+id = "0ca4f94cd62441b6916395282dfa3f14"
+
+[vars]
+ANALYTICS_SERVER_URL = "https://analytics-internal.yashk.net" # Fill with your CF Tunnel URL, e.g. https://analytics-internal.yashk.net
