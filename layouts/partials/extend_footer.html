@@ -2,14 +2,21 @@
 <script>
 (function(){
   if(!navigator.sendBeacon)return;
-  navigator.sendBeacon("/api/ping",JSON.stringify({
-    p:location.pathname,
-    r:document.referrer,
-    sw:screen.width,
-    sh:screen.height,
-    ua:navigator.userAgent,
-    t:Date.now()
-  }));
+  var sent=false;
+  function ping(){
+    if(sent)return;
+    sent=true;
+    navigator.sendBeacon("/api/ping",JSON.stringify({
+      p:location.pathname,
+      r:document.referrer,
+      sw:screen.width,
+      sh:screen.height,
+      ua:navigator.userAgent,
+      t:Date.now()
+    }));
+  }
+  var ev=["scroll","mousemove","touchstart","click","keydown"];
+  ev.forEach(function(e){document.addEventListener(e,ping,{once:true,passive:true});});
 })();
 </script>
 {{- end }}
