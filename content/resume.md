@@ -20,7 +20,7 @@ disableShare: true
 
 ## Summary
 
-Fullstack Software Developer with 3+ years of experience specializing in backend development and mobile app development. Interested in devising better problem-solving methods for challenging tasks, and learning new technologies and tools as the need arises.
+Fullstack Software Engineer with 3+ years of experience building and shipping backend systems, REST APIs, and cross-platform mobile apps (React Native, iOS & Android). Early engineer at a SaaS startup, with hands-on experience in Go, Node.js, Python, AWS, and PostgreSQL. Track record of taking products from zero to launch across multi-tenant platforms, workforce apps, and CI/CD-driven delivery pipelines.
 
 ---
 
@@ -30,28 +30,27 @@ Fullstack Software Developer with 3+ years of experience specializing in backend
 
 *Mar 2024 – Feb 2026· Remote, Perth AU*
 
-- Founding engineer who partnered directly with the CEO and CTO to shape product direction and deliver a multi-tenant NDIS SaaS platform across HR, client management, rostering, and billing on AWS.
-- Took core workforce workflows (rostering, timesheets, approvals, billing) from idea → production, coordinating across product and engineering and iterating quickly based on real operator feedback.
-- Built and owned a cross-platform workforce app (iOS/Android) — Carers Community on the Play Store and App Store — with a single codebase, making it easier to ship consistent updates across platforms.
+- Architected a multi-tenant NDIS SaaS platform (HR, rostering, client management) on AWS as an early engineer, collaborating directly with CEO and CTO to define product roadmap and technical architecture.
+- Took core workforce workflows (rostering, timesheets, approvals) from idea → production, coordinating across product and engineering and iterating quickly based on real operator feedback.
+- Built and shipped "Carers Community" ([App Store](https://apps.apple.com/in/app/carers-community/id6743124831) | [Google Play](https://play.google.com/store/apps/details?id=com.stratexcs.carers_community_cc)) — a cross-platform workforce app (React Native, TypeScript) from a single codebase, enabling support workers to manage shifts, timesheets, and notifications on mobile.
 - Introduced background processing for operational tasks like approvals, invoice/document generation, and notifications, reducing manual follow-ups and keeping the platform responsive during busy periods.
-- Designed and shipped a multi-tenant LMS backend in Go (Gin) and mobile app for a beta/pilot program, enabling onboarding for operators and gathering feedback to guide the next iteration.
+- Designed and shipped "Carers Academy" ([App Store](https://apps.apple.com/in/app/carers-academy/id6754163361) | [Google Play](https://play.google.com/store/apps/details?id=com.stratexcs.carersacademymobileapp)) — a multi-tenant LMS backend (Go/Gin, PostgreSQL, REST APIs) and cross-platform mobile app providing operators and support workers with on-demand courses, assessments, and certification tracking.
+- Led technical interviews and shaped the engineering hiring pipeline, recruiting and mentoring incoming engineers.
 
 ### Software Engineer · Ratham
 
 *Jul 2023 – Feb 2024 · Hyderabad, IN*
 
-- 3rd engineer at an enterprise transportation software company.
-- Designed and implemented robust APIs in Golang, supported by comprehensive test cases.
-- Developed and tested cross-platform mobile apps using React Native, ensuring a seamless experience for Android and iOS users.
+- Designed and implemented RESTful APIs in Go for enterprise transportation logistics, backed by unit and e2e tests across core modules.
+- Developed a cross-platform mobile app (React Native, TypeScript) for Android and iOS, enabling field operators to manage transportation workflows in real time.
 - Established a CI/CD pipeline, automating workflows and streamlining deployment.
 - Launched the app on Google Play, expanding market reach and enhancing accessibility.
-- Hired and mentored intern candidates.
 
 ### Application Development Associate · Accenture
 
 *Oct 2021 – Jun 2022 · Mumbai, IN*
 
-- Collaborated on projects for Best Buy (US), managing project risks, issues, tickets, and client database changes, and handled purchase transaction errors in the client DB.
+- Resolved purchase transaction errors in Best Buy's production database (SQL), triaging tickets and coordinating database change requests across cross-functional teams spanning US and India.
 
 ### Internship Trainee · Siemens
 
@@ -85,6 +84,6 @@ B.E. in Information Technology · CGPA: 7.7
 
 ## Skills
 
-**Languages & Frameworks:** Python, Go, React Native, Node.js, Express, FastAPI
+**Languages & Frameworks:** Go, Gin, TypeScript, Node.js, React Native, Python, FastAPI, Express
 
-**Infrastructure & Tools:** AWS, CI/CD
+**Infrastructure & Tools:** AWS (EC2, S3, RDS, ECS), Docker, CI/CD
