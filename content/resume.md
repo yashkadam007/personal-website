@@ -14,13 +14,13 @@ disableShare: true
 
 **Software Engineer**
 
-[hello@yashk.net](mailto:hello@yashk.net) · [yashk.net](https://yashk.net) · [GitHub](https://github.com/yashkadam007) · [LinkedIn](https://linkedin.com/in/yashkadam007)
+[hello@yashk.net](mailto:hello@yashk.net) · [LinkedIn](https://linkedin.com/in/yashkadam007) · [GitHub](https://github.com/yashkadam007) · [yashk.net](https://yashk.net)
 
 ---
 
 ## Summary
 
-Fullstack Software Engineer with 3+ years of experience building and shipping backend systems, REST APIs, and cross-platform mobile apps (React Native, iOS & Android). Early engineer at a SaaS startup, with hands-on experience in Go, Node.js, Python, AWS, and PostgreSQL. Track record of taking products from zero to launch across multi-tenant platforms, workforce apps, and CI/CD-driven delivery pipelines.
+Backend-leaning full-stack engineer with 3+ years of experience building multi-tenant SaaS products, REST APIs, asynchronous workflows, and cross-platform applications using Node.js, Go, Python, PostgreSQL, AWS, and React Native. Founding engineer who owned systems from architecture and data modeling through testing, deployment, and production operations.
 
 ---
 
@@ -28,29 +28,27 @@ Fullstack Software Engineer with 3+ years of experience building and shipping ba
 
 ### Fullstack Developer · StratexCS Pty. Ltd
 
-*Mar 2024 – Feb 2026· Remote, Perth AU*
+*Mar 2024 – Feb 2026 · Remote, Perth AU*
 
-- Architected a multi-tenant NDIS SaaS platform (HR, rostering, client management) on AWS as an early engineer, collaborating directly with CEO and CTO to define product roadmap and technical architecture.
-- Took core workforce workflows (rostering, timesheets, approvals) from idea → production, coordinating across product and engineering and iterating quickly based on real operator feedback.
-- Built and shipped "Carers Community" ([App Store](https://apps.apple.com/in/app/carers-community/id6743124831) | [Google Play](https://play.google.com/store/apps/details?id=com.stratexcs.carers_community_cc)) — a cross-platform workforce app (React Native, TypeScript) from a single codebase, enabling support workers to manage shifts, timesheets, and notifications on mobile.
-- Introduced background processing for operational tasks like approvals, invoice/document generation, and notifications, reducing manual follow-ups and keeping the platform responsive during busy periods.
-- Designed and shipped "Carers Academy" ([App Store](https://apps.apple.com/in/app/carers-academy/id6754163361) | [Google Play](https://play.google.com/store/apps/details?id=com.stratexcs.carersacademymobileapp)) — a multi-tenant LMS backend (Go/Gin, PostgreSQL, REST APIs) and cross-platform mobile app providing operators and support workers with on-demand courses, assessments, and certification tracking.
-- Led technical interviews and shaped the engineering hiring pipeline, recruiting and mentoring incoming engineers.
+- Architected a multi-tenant NDIS operations platform on Node.js, PostgreSQL, and AWS supporting approximately 10 providers, 800+ users, and 10,000+ monthly shifts.
+- Owned backend architecture and REST APIs across rostering, timesheets, billing, client records, documents, and RBAC, translating ambiguous requirements into pragmatic, maintainable production features through AI-assisted analysis, prototyping, testing, and iterative validation.
+- Built asynchronous processing using BullMQ and cron-based schedulers for approvals, invoicing, document generation, notifications, and recurring rosters, reducing manual follow-ups while keeping long-running work outside user-facing requests.
+- Owned the end-to-end development of "Carers Community" ([iOS](https://apps.apple.com/in/app/carers-community/id6743124831) · [Android](https://play.google.com/store/apps/details?id=com.stratexcs.carers_community_cc)) and "Carers Academy" ([iOS](https://apps.apple.com/in/app/carers-academy/id6754163361) · [Android](https://play.google.com/store/apps/details?id=com.stratexcs.carersacademymobileapp)), building cross-platform React Native products covering workforce operations and learning management, including a multi-tenant LMS backend using Go/Gin, PostgreSQL, and REST APIs.
+- Built an outbound LiveKit voice AI system that automated 1,000+ monthly NDIS shift confirmation calls, using roster-aware prompts and LLM tool-calling for in-call shift assignment, reducing coordinator follow-ups by ~50% and saving ~12 hours per week.
 
 ### Software Engineer · Ratham
 
 *Jul 2023 – Feb 2024 · Hyderabad, IN*
 
-- Designed and implemented RESTful APIs in Go for enterprise transportation logistics, backed by unit and e2e tests across core modules.
-- Developed a cross-platform mobile app (React Native, TypeScript) for Android and iOS, enabling field operators to manage transportation workflows in real time.
-- Established a CI/CD pipeline, automating workflows and streamlining deployment.
-- Launched the app on Google Play, expanding market reach and enhancing accessibility.
+- Designed and implemented Go REST APIs for an enterprise transportation platform piloted across ~100 cabs, with unit and end-to-end tests covering core workflows.
+- Built a cross-platform React Native and TypeScript application for Android and iOS, enabling field operators to manage transportation workflows during the proof of concept.
+- Established a CI/CD pipeline that automated build and deployment workflows, improving release consistency throughout the pilot.
 
 ### Application Development Associate · Accenture
 
 *Oct 2021 – Jun 2022 · Mumbai, IN*
 
-- Resolved purchase transaction errors in Best Buy's production database (SQL), triaging tickets and coordinating database change requests across cross-functional teams spanning US and India.
+- Investigated and resolved SQL production issues affecting Best Buy purchase transactions, coordinating validated database changes across engineering and operations teams in the US and India.
 
 ### Internship Trainee · Siemens
 
@@ -62,8 +60,8 @@ Fullstack Software Engineer with 3+ years of experience building and shipping ba
 
 ## Education
 
-**Savitribai Phule Pune University** · 2017 – 2021
-B.E. in Information Technology · CGPA: 7.7
+**Savitribai Phule Pune University** · B.E. in Information Technology\
+CGPA: 7.7 · 2017 – 2021
 
 ---
 
@@ -84,6 +82,8 @@ B.E. in Information Technology · CGPA: 7.7
 
 ## Skills
 
-**Languages & Frameworks:** Go, Gin, TypeScript, Node.js, React Native, Python, FastAPI, Express
+**Languages:** Go, TypeScript, Python, SQL
 
-**Infrastructure & Tools:** AWS (EC2, S3, RDS, ECS), Docker, CI/CD
+**Frameworks:** Gin, Node.js, React Native, FastAPI, Express
+
+**Data & Infrastructure:** PostgreSQL, Kafka, AWS (EC2, S3, RDS, ECS), Docker, CI/CD
